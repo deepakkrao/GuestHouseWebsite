@@ -8,12 +8,14 @@ function MainPage() {
       style={{ backgroundImage: `url(${header})` }}
     >
       <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h1 className="text-[2em] text-center sm:text-[3em] text-white">
-          Xperience the Art of Hospitality
+        <h1 className="text-[1.7em] text-center sm:text-[3em] font-bold text-zinc-300">
+          <span className="shadow-lg p-3 rounded-full ">
+            Make Yourself at home
+          </span>
           {/* <span class="inline-block animate-pulse">
             "Welcome to Our Guest House"
           </span> */}
-          <span class="inline-block animate-pulse shadow-lg p-2 rounded-full ml-1 hover:bg-zinc-800 hover:text-white">
+          <span class="inline-block animate-pulse shadow-lg p-3 rounded-full hover:bg-zinc-800 hover:text-white text-nowrap">
             "Welcome to Our Guest House"
           </span>
         </h1>
