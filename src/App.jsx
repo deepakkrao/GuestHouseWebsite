@@ -1,13 +1,15 @@
-import Cards from "./Components/Cards";
-import MainPage from "./Components/MainPage";
-import NavBar from "./Components/NavBar";
+import Home from "./Components/Home";
+import Navbar from "./Components/NavBar";
+import RoomsBed from "./Components/RoomsBed";
+import Gallery from "./Components/Gallery";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <MainPage />
-      <Cards />
+      <Navbar />
+      <Home />
+      <RoomsBed />
+      <Gallery />
     </>
   );
 }
