@@ -73,7 +73,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? " bg-zinc-800 text-2xl text-white m-2 px-3 py-2 rounded-full font-medium"
-                        : "text-zinc-800 hover:bg-zinc-800 text-xl hover:text-white px-3 m-3 py-2 rounded-full font-medium"
+                        : "text-zinc-800 hover:bg-zinc-800 text-xl hover:text-white px-3 py-2 rounded-full font-medium"
                     }
                   >
                     {items.a}

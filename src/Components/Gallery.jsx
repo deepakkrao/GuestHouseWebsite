@@ -42,7 +42,7 @@ function Gallery() {
       bg: gl2,
       mess: "Baranti is a serene and picturesque village located in the Purulia district of West Bengal, India. Nestled amidst hills and forests, it is an emerging eco-tourism destination",
     },
-    { Headers: "Follwer", bg: gl3, mess: "" },
+    { Headers: "Flower", bg: gl3, mess: "" },
     {
       Headers: "The Mithon Dam",
       bg: gl5,
