@@ -6,7 +6,7 @@ import SimpleMap from "./GoogleMap";
 function Footer() {
   return (
     <div className=" bg-zinc-900 mt-28 flex flex-col justify-center items-center rounded-t-xl rounded-r-xl  ">
-      <div className="w-full text-zinc-800 text text-3xl font-bold font-sans mt-7 text-nowrap text-center sm:text-5xl md:text-9xl">
+      <div className="w-full select-none text-zinc-800 text text-3xl font-bold font-sans mt-7 text-nowrap text-center sm:text-5xl md:text-8xl">
         Kingsukh Gouest House.
       </div>
       <div className="flex justify-center items-center flex-col sm:flex-row mb-10">
@@ -30,10 +30,10 @@ function Footer() {
           ].map((items, idx) => (
             <div
               key={idx}
-              className="text-white mt-2 mb-4 flex flex-row gap-6 items-center text-xl text-wrap font-bold"
+              className="text-white mt-2 mb-4 flex flex-row gap-6 items-center text-wrap font-bold"
             >
               <span className="text-zinc-900">{items.icon}</span>{" "}
-              <span className="text-sm sm:text-3xl md:2xl"> {items.con} </span>
+              <span className="text-sm sm:text-xl md:lg"> {items.con} </span>
             </div>
           ))}
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 text-xl">
