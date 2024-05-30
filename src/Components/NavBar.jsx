@@ -26,7 +26,7 @@ const Navbar = () => {
                 {/* Add your navigation links here */}
 
                 {[
-                  { a: "Home", link: "/" },
+                  { a: "Home", link: "/GuestHouseWebsite" },
                   { a: "About", link: "/About" },
                   { a: "Services", link: "/Services" },
                   { a: "Rooms", link: "/RoomsBed" },
@@ -60,7 +60,7 @@ const Navbar = () => {
               <div className=" flex justify-center items-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 {/* Add your navigation links here */}
                 {[
-                  { a: <TbHomeFilled />, link: "/" },
+                  { a: <TbHomeFilled />, link: "/GuestHouseWebsite" },
                   { a: <TbUserFilled />, link: "/About" },
                   { a: <FcServices />, link: "/Services" },
                   { a: <IoBed />, link: "/RoomsBed" },
