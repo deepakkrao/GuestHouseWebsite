@@ -1,9 +1,9 @@
 import React from "react";
 
 function Button() {
-  const phoneNum = "9007062180";
+  const phoneNum = "+919007062180";
   const message =
-    "Hello, Iwould like to book a room at your guest house. Could you please more details";
+    "Hello, I would like to book a room at your guest house. Could you please more details";
   const chatMe = () => {
     const URL = `https://wa.me/${phoneNum}?text=${encodeURIComponent(message)}`;
     window.location.href = URL;

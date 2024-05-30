@@ -18,16 +18,16 @@ function services() {
     {
       Headers: "High Class Security",
       bg: Comfort,
-      mess: "Our guest house is all about comfort, with cozy rooms and friendly service to make your stay relaxing and enjoyable",
+      mess: "",
     },
     {
       Headers: "24 Hours Room Service",
       bg: Adven,
-      mess: "Experience adventure at our guest house, where excitement awaits at every turn",
+      mess: "",
     },
     {
       Headers: "Restaurant",
-      mess: "Indulge in luxury at our guest house, where opulent amenities and exquisite touches redefine relaxation.",
+      mess: "",
       bg: luxury,
     },
     {
